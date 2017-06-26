@@ -1,0 +1,117 @@
+/* Set width of content to 60% */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	line-height: normal;
+	text-decoration: none;
+	line-height: 1;
+	vertical-align: baseline;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: ghostwhite
+}
+
+#content {
+	width: 60%;
+	margin-top:50px;
+	margin-left: 265px;
+	color: #333;
+}
+
+/* Menu bar*/
+
+.menu {
+	height: 32px;
+	width: 100%;
+	background-color: #1f003c;
+}
+
+/* Menu links container*/
+
+.menu-links {
+	height: 100%;
+	float: left;
+	margin-left:60px;
+}
+
+/* Menu links */
+
+.menu-links a {
+	color: ghostwhite;
+	background-color: #1f003c;
+	font-size: 14px;
+	line-height: 1;
+	padding-top: 9px;
+	padding-bottom:9px;
+	padding-left:4px;
+	padding-right:4px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.menu-links a:hover {
+	border-radius: 1px;
+	font-weight: bold;
+}
+
+/* Vertical menu */
+
+.vertical-menu {
+	width: 200px;
+	max-height: 400px;
+	overflow-y: auto;
+	float: left;
+	background-color: #1f003c;
+	margin-top: 42px;
+	margin-left: 16px;
+	padding-bottom: 15px;
+	border-radius: 3px;
+}
+
+.vertical-menu-links {
+}
+
+/* Vertical menu links */
+
+.vertical-menu-links a {
+    background-color: #224361;
+    color: ghostwhite;
+    font-size:14px;
+    text-align: center;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu-links a:hover {
+    background-color: #426c92;
+}
+
+.vertical-menu-links a.active {
+    background-color: #00a3ff;
+    color: ghostwhite;
+}
+
+/* Menu icon */
+
+.icon {
+	left: 25px;
+	position: absolute;
+}
+
+.icon img {
+	width: 20px! important;
+	margin-top: 6px! important;
+}
+
+.title {
+	font-weight: bold;
+	color: ghostwhite;
+	padding-left:24%;
+	padding-top: 17px;
+	padding-bottom:17px;
+	background-color: #1f003c;
+}
